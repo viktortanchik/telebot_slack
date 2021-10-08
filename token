@@ -1,0 +1,29 @@
+ID приложения
+A02H44GEYCT
+Дата создания приложения
+October 7, 2021
+ID клиента
+39739981764.2582152508435
+Секрет клиента
+12ad2e1aca25ddc1354e75329b044e1b
+Вам нужно будет отправить этот секрет вместе с вашим идентификатором клиента при выполнении запроса oauth.v2.access .
+Секрет подписания
+4501c3701d0346aa9180a953c84c7b14
+Slack подписывает запросы, которые мы отправляем вам, используя этот секрет. Подтвердите, что каждый запрос исходит от Slack, проверив его уникальную подпись.
+Токен подтверждения
+YT3AVnWESyauArcz3RSeKdWx
+
+
+xoxb-39739981764-2582427093586-Wp58WtW8szbZdF4COR0TNfjX
+
+
+
+xapp-1-A02H19EQFMK-2575649167590-9c9a3d77562ddcd011ffedc092dd829c7eb1427084e711833f9080e169aaf324
+
+
+
+xoxe-1-My0xLTM5NzM5OTgxNzY0LTI1ODIzMTI3NzY1MzAtMjU4NDUwNDYwMTc4MC0wYWFkYTM3NjU1MmZmYzA3MjA5NDFlZWFiMWIyN2M3MWNlYTc5ODE4NDEzMzg5N2Q0OTgwNTQwODY5Zjk2Nzcw
+xapp-1-A02H44GEYCT-2582213541171-bcd15b5e593aeb5d91eb651c16beadd024f47a19110f5e49be6fd985840728db
+SLACK_BOT_TOKEN="xapp-1-A02H44GEYCT-2582213541171-bcd15b5e593aeb5d91eb651c16beadd024f47a19110f5e49be6fd985840728db" python main.py
+
+xapp-1-A02H44GEYCT-2594810063809-0699b7392d85674b3a7a4388be21e1b74d7e8a7a8af960431f7544f8ef5b7fbd
