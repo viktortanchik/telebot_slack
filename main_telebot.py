@@ -28,13 +28,17 @@ while(flag):
     time.sleep(0.4)
     api_hash = str(cur.fetchone()[0])
     session = str("anon" + str(x))
-    client = TelegramClient(session, api_id, api_hash)
-    client.start()
-    flag =False
+    #client = TelegramClient(session, api_id, api_hash)
+    flag=False
+client = TelegramClient(session, api_id, api_hash)
+
+@client.on(events.NewMessage)
+async def my_event_handler(event):
+    if 'hello' in event.raw_text:
+        await event.reply('hi!')
+        print("HI")
+client.start()
+client.run_until_disconnected()
 
 
-while True:
-    @client.on(events.NewMessage(chats=('chat_name')))
-    async def normal_handler(event):
-        #    print(event.message)
-        print(event.message.to_dict()['message'])
+
