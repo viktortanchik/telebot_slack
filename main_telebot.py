@@ -5,7 +5,7 @@ from telethon import TelegramClient, sync, events
 
 
 
-db = sqlite3.connect('Account.db')
+db = sqlite3.connect('мой токен/Account.db')
 cur = db.cursor()
 
 x = 1
