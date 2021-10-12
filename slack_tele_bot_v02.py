@@ -128,7 +128,9 @@ class Bot:
         self.client.run_until_disconnected()
 
 start = Bot(1)
+
+#start.create_db("+380661054982","1634158","1ea650a5f73b4074a90f8e2a086d2641")
+#start.create_clients(1)
 start.account_start()
 texts=['test','text','yes']
 start.main_bot(texts)
-
